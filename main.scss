@@ -25,6 +25,7 @@ h3 {
 body {
   font-family: "Nunito Sans";
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .primaryBtn {
   border: 0.1rem solid transparent;
@@ -257,4 +258,91 @@ body {
     }
   }
 }
+
 /* END BRAND SECTION */
+/* START FOOTER */
+.footer {
+  padding: 9rem 6rem;
+  &__left {
+    h2 {
+      font-weight: 900;
+    }
+  }
+  &__right {
+  }
+}
+/* END FOOTER */
+// ---------------- START MEDIA QUERY
+@media only screen and(max-width:768px) {
+  html {
+    font-size: 9px;
+  }
+  .customNav {
+    .nav__left {
+      padding: 2rem 0;
+    }
+    .nav__right {
+      padding: 2rem 0;
+      ul {
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .header {
+    &__left {
+      &-txt {
+        padding: 6rem 0;
+      }
+    }
+    &__right {
+      img {
+        width: 100%;
+        object-fit: cover;
+        display: none;
+      }
+    }
+  }
+  .design {
+    &__left {
+    }
+    &__right {
+      padding: 6rem 0;
+    }
+  }
+  .approach {
+    &__left {
+      height: 60rem;
+      &-txt {
+        position: relative;
+        left: 10%;
+        top: 10%;
+      }
+    }
+  }
+
+  .brand {
+    &__left {
+      &-txt {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 7px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 6px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 5.5px;
+  }
+}
+// ---------------- END MEDIA QUERY
