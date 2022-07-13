@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+body {
+  font-family: "Nunito Sans";
+  overflow-x: hidden;
+}
+
+.primaryBtn {
+  border: 0.1rem solid transparent;
+  padding: 0.5rem 3rem;
+  background-color: #f94f4f;
+  color: white;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  border-radius: 1rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-weight: 700;
+}
+
+.primaryBtn:hover {
+  border: 0.1rem solid #f94f4f;
+  background-color: transparent;
+  color: #f94f4f;
+}
+
+.secondaryBtn {
+  border: none;
+  background-color: transparent;
+  color: #f94f4f;
+  font-weight: 800;
+  padding-bottom: 1rem;
+  border-bottom: 0.5rem solid #f94f4f;
+  font-size: 1.6rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.secondaryBtn:hover {
+  border-bottom: 0.5rem solid transparent;
+}
+
+/* START nav */
+.customNav .nav__left .logo h3 {
+  font-weight: 900;
+}
+
+.customNav .nav__right {
+  padding: 6rem 0;
+  background-color: #f94f4f;
+}
+
+.customNav .nav__right ul {
+  list-style: none;
+}
+
+.customNav .nav__right ul li {
+  display: inline-block;
+  margin-left: 5rem;
+}
+
+.customNav .nav__right ul li a:link,
+.customNav .nav__right ul li a:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.customNav .nav__right ul li a:hover,
+.customNav .nav__right ul li a:active {
+  color: black;
+}
+
+/* END nav */
+/* START HEADER */
+.header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 3rem !important;
+}
+
+.header__left-txt h1 {
+  font-size: 7.5rem;
+  font-weight: 900;
+  margin-bottom: 4rem;
+  line-height: 1;
+}
+
+.header__left-txt p {
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  width: 40rem;
+}
+
+.header__right img {
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
+}
+
+/* END HEADER */
+/* START DESIGN SECITON */
+.design {
+  background-color: #191921;
+}
+
+.design__left img {
+  height: 90vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.design__right {
+  padding-top: 8rem;
+  color: white;
+}
+
+.design__right-txt {
+  padding-left: 6rem;
+}
+
+.design__right-txt h2 {
+  font-size: 6rem;
+  line-height: 1;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.design__right-txt p {
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+/* END DESIGN SECITON */
+/* START APPROACH SECITON */
+.approach__left {
+  position: relative;
+}
+
+.approach__left-txt {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  width: 40rem;
+}
+
+.approach__left-txt h2 {
+  font-weight: 800;
+  font-size: 5.5rem;
+}
+
+.approach__right {
+  height: 100rem;
+  background-color: #f94f4f;
+  margin-top: -15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.approach__right-box {
+  width: 50rem;
+  margin-bottom: 8rem;
+  position: relative;
+}
+
+.approach__right-box .box__number {
+  position: absolute;
+  font-size: 7rem;
+  font-weight: 900;
+  opacity: 0.3;
+  top: -40%;
+  left: -5%;
+  z-index: 0;
+}
+
+.approach__right-box h4 {
+  font-size: 1.9rem;
+  position: relative;
+  z-index: 2;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
+
+.approach__right-box p {
+  font-weight: 600;
+  opacity: 0.75;
+}
+
+.approach__right-box:last-child {
+  margin-bottom: 0;
+}
+
+/* END APPROACH SECITON */
+/* START BRAND SECTION */
+.brand {
+  background-color: white;
+}
+
+.brand__left {
+  position: relative;
+}
+
+.brand__left-txt {
+  position: absolute;
+  background-color: #191921;
+  color: white;
+  height: 40rem;
+  width: 120%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 10rem;
+}
+
+.brand__left-txt .txt__text {
+  font-weight: 900;
+  font-size: 4.8rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding-right: 3rem;
+}
+
+.brand__left-txt .txt__left,
+.brand__left-txt .txt__right {
+  padding: 1rem;
+  background-color: transparent;
+  color: #f94f4f;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: 0.1rem solid #f94f4f;
+  margin-right: 1rem;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.brand__left-txt .txt__left:hover,
+.brand__left-txt .txt__right:hover {
+  color: white;
+  border: 0.1rem solid white;
+}
+
+.brand__right img {
+  height: 70rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* END BRAND SECTION */
+/*# sourceMappingURL=main.css.map */
